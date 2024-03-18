@@ -45,3 +45,89 @@
 .nav-links li a:hover {
   color: blue;
 }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.kanban-board {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.column-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tasks {
+    min-height: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+table {
+  border-collapse: collapse;
+
+  margin: 20px 20px 20px;
+
+}
+
+th, td {
+  border:none;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #d3eaf2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.edit, .delete {
+  border-radius: 15%;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.create {
+  border-radius: 15%;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+.book{
+
+}
+
+

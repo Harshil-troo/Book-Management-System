@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Book </title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <div class="row justify-content-md-center">
+            <div class="col-md-4 col-sm-6">
+              <div class="border-common">
+                <div  id="imager" class="common">
+                    <div class="image-container">
+                        <img src="images/img1.jpg" alt="centered image" height="300" width="400">
+                    </div>
+                    <div class="card">
+                            <div class="card-header">
+                                <h5 id="profile-name" class="mb-0">Adam</h5>
+                            </div>
+                            <div class="card-body">
+                                <form id="book-form" class="book-form">
+                                    <input type="hidden" id="book-id" value="1">
+                                    <label for="book-name">Name:</label>
+                                    <input type="text" id="book-name" placeholder ="Book Title">
+
+                                    <label for="publish-date">Publish date:</label>
+                                    <input type="date" id="publish-date" >
+
+                                    <label for="author-name">Author name:</label>
+                                    <input type="text" id="author-name" placeholder ="Author Name">
+
+                                    <label for="price">Price:</label>
+                                    <input type="number" id="price" placeholder ="19.99">
+                                </form>
+                            </div>
+                            <div class="card-footer text-center">
+                                <button id="edit" class="btn btn-success">Save</button>
+                            </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+    </div>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="script2.js"></script>
+</body>
+</html>
