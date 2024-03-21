@@ -5,38 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book List</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style_book.css">
 </head>
 <body>
 <div class="book">
-  <button type="button" class="create btn-dark">Create </button>
+  <button type="button" class="create btn-primary">Create </button>
   <table id="userTable">
   <thead>
     <tr>
       <th>Sr.No</th>
       <th>Book Name</th>
-      <th>Author</th>
       <th>Publish Date</th>
+      <th>Author</th>
       <th>Price</th>
       <th>Action</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>shiv</td>
-      <td>shi@gmail.com</td>
-      <td>Male</td>
-      <td>Graduation</td>
-      <td>
-        <button type="button" class="edit btn-primary">Edit </button>
-        <button type="button" class="delete btn-danger">Delete </button>
-      </td>
-    </tr>
+  <tbody id="id_bookbody">
+<!--  append this body using javascript by adjacentHTMl -->
+
   </tbody>
   </table>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="script1.js"></script>
+<script src="script_book.js"></script>
 </body>
 </html>
