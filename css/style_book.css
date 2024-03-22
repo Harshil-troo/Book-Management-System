@@ -21,7 +21,7 @@ tr:nth-child(even) {
 }
 
 .edit, .delete {
-  border-radius: 15%;
+  border-radius: 50%;
   color: white;
   padding: 5px 10px;
   text-align: center;
@@ -33,7 +33,7 @@ tr:nth-child(even) {
 }
 
 .create {
-  border-radius: 15%;
+  border-radius: 50%;
   color: white;
   padding: 5px 10px;
   text-align: center;

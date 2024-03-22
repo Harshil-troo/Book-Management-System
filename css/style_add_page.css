@@ -77,8 +77,20 @@ body {
   font-size: 16px;
   resize: none;
 }
+
+label#img-label{
+    display:block;
+    width:50px;
+    background: #e3362e;
+    text-align:center;
+    color:#fff;
+    padding:5px;
+    margin:10px auto;
+    border-radius:5px;
+    cursor:pointer;
+}
 input#imageUpload {
-    height: 50px;
+    display: none;
 }
 
 

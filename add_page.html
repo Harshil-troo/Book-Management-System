@@ -6,9 +6,10 @@
         <title>Add Page </title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style_add_page.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     </head>
     <body>
-       <div class="row justify-content-md-center">
+      <div class="row justify-content-md-center">
             <div class="col-md-4 col-sm-6">
                <div class="border-common">
                     <div id="imager" class="common">
@@ -18,7 +19,8 @@
                         <div class="card">
                             <div class="card-body">
                                 <form id="book-form" class="book-form">
-                                    <input type='file' id="imageUpload"   accept=".png, .jpg, .jpeg" />
+                                    <label  id = "img-label" for="imageUpload"><i class="fa-solid fa-pencil"></i></label>
+                                    <input type='file' id="imageUpload"   accept=".png, .jpg, .jpeg"/>
                                     <input type="hidden" id="book-id" value="1">
                                     <label for="book-name">Name:</label>
                                     <input type="text" id="book-name" placeholder="Book Title">

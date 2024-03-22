@@ -23,7 +23,7 @@ function appendRowIntoBookList(book_instance) {
       <td>${book_instance.author_name}</td>
       <td>${book_instance.price}</td>
       <td>
-        <button type="button" class="edit btn-primary">Edit </button>
+        <button type="button" class="edit btn-primary">Edit</button>
         <button type="button" class="delete btn-danger">Delete </button>
       </td>
     </tr>`
